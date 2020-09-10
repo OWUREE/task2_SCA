@@ -1,0 +1,229 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    width: 100%; 
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #333333;
+    overflow: scroll;
+    
+}
+.min-content{
+    width: -moz-min-content;
+}
+
+#flex-container{
+    display: flex;
+    Background-color: #a8a9b4;
+    flex-direction: row;
+}
+.profile{
+  padding: 15px;
+  
+}
+img {
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    margin-left: 5px;
+    border: 8px solid #2c2f3f;
+    border-radius: 20%;
+  }
+  
+  .nav-menu {
+    padding-top: 20px;
+  }
+  
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+  }
+  
+  
+  .nav-menu a {
+    display: flex;
+    align-items: center;
+    color:darkslateblue;
+    padding: 6px 12px;
+    transition: 0.3s;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  
+  .nav-menu a:hover, .nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  li a{
+      text-decoration: none;
+      color:#333333 ;
+      font-weight: bold;
+  }
+  li{
+    list-style-type: none;
+  }
+
+  .social-links{
+    text-align: center;
+    margin-left: 15px;
+  }
+  i.fa{
+      font-size: 3rem;
+      border-radius:5px solid dodgerblue;
+      margin: 4px;
+      margin-right: 10px;
+  }
+  .fa-linkedin{
+      color:white;
+  }
+  .fa-github{
+    color: #211F1F; 
+  }
+  .fa-twitter{
+    color: dodgerblue;
+}
+.more_info{
+  background-color: #7e7b7d;
+  font-size: 25px;
+ 
+}
+
+.infosec h1 {
+  color:black;
+  text-shadow: 5px 2px 5px black;
+  text-align: center;
+  
+  font-weight: bold;
+  font-size: 40px;
+}
+.intro{
+  font-family: Goudy Stout Regular;
+  font-size: 25px;
+  color: navy;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+p{
+  margin-top: 2px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+progress[value]{
+  -webkit-appearance: none;
+  appearance: none;
+  background-color:green;
+  margin: 0px 0px 6px 0px;
+  height: 15px;
+  width:280px;
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  background: none;
+  border: none;
+}
+.progress{
+  display: inline-block;
+  margin-left: 10px;
+ 
+}
+.skill{
+  display: block;
+  font-weight: bold;
+  font-size:15px ;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  text-transform: uppercase;
+}
+.val{
+  font-size:15px ;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  font-weight: bold;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: navy;
+  padding: 10px;
+  margin-left: 10px;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  margin-left: 10px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #272829;
+  padding: 5px 15px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.contact{
+  padding: 17px;
+  margin: 0 auto;
+  
+  
+}
+
+h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: navy;
+  margin-bottom: 10px;
+}
+.contact-item{
+  padding: 10px;
+}
